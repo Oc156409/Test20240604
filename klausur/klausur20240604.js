@@ -3,11 +3,13 @@ console.log("Klausur 20240604")
 // Bearbeiten Sie alle Aufgaben nach Vorgabe. 
 // Deklarieren Sie stets Varibalen mit sprechenden Namen und geben Sie einen Antwortsatz auf der Konsole aus.
 
+let a = 2;
+let b = 1;
 
 console.log("Aufgabe 1")
 // 1a) Berechnen Sie das Volumen eines Würfels mit Hilfe der Grundrechenoperatoren (+ , - , * , /) , bei dem die Kantenlänge mit der Varablen a festgelegt wird.
 
-
+console.log("Ergebnis:" + (a * a * a));
 
 // 1b) - Nur Klausurschreiber
 // Wiederholen Sie die Berechnung mit Hilfe der Math-Bibliothek, indem Sie die bekannte Funktion .sqrt() verwenden.
@@ -20,6 +22,8 @@ console.log("Aufgabe 2")
 // Umfang = 2 * pi * Radius
 // Durchmesser = 2 * Radius
 
+let pi = 3.14;
+let Radius = 3
 
 
 // 2a)
@@ -35,14 +39,13 @@ console.log("Aufgabe 2")
 // 2b)
 // Berechnen Sie Flächeninhalt.
 
-
-
+console.log("Ergbnis:" + (pi * Radius * Radius));
 
 
 // 2c)
 // Berechnen Sie den Umfang
 
-
+console.log("Ergbnis:" + (a * pi * Radius));
 
 
 
@@ -50,7 +53,7 @@ console.log("Aufgabe 2")
 // Berechnen Sie den Durchmesser
 
 
-
+console.log("Ergbnis:" + (a * Radius));
 
 
 console.log("Aufgabe 3")
@@ -154,6 +157,7 @@ console.log("Aufgabe 5")
 // Um die Aufgabe zu lösen, brauchen Sie die "Wenn-Funktion"
 // Dazu ein erklärendes Beispiel:
 // if (a > b) { console.log("A ist größer als B") }
-// if (a <= b) { console.log("A ist kleiner als B oder gleich groß") }    
+// if (a <= b) { console.log("A ist kleiner als B oder gleich 
 
 
+//Ich kann das nicht
